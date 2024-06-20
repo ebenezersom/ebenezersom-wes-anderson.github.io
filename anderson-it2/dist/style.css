@@ -1,0 +1,506 @@
+@font-face {
+  font-family: 'Helotypo';
+  src: url('https://assets.codepen.io/12495092/Helotypo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+ font-feature-settings: "liga" 0. ;
+}
+
+.animated-element {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    margin: 20px 0;
+}
+
+.animated-element.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.overlap-group {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.anderson {
+  background-color: #624f25;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.anderson .anderson-it {
+  background-color: #624f25;
+  overflow-x: hidden;
+  width: 1512px;
+  height: 4616px;
+  position: relative;
+}
+
+.anderson .overlap-group {
+  position: absolute;
+  width: 1533px;
+  height: 4510px;
+  top: 106px;
+  left: -10px;
+}
+
+.anderson .rectangle {
+  position: absolute;
+  width: 1512px;
+  height: 1508px;
+  top: 3002px;
+  left: 10px;
+  background-color: #cfcb9c;
+}
+
+.anderson .img {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 1644px;
+  left: 609px;
+}
+
+.anderson .div {
+  position: absolute;
+  width: 1512px;
+  height: 1214px;
+  top: 1799px;
+  left: 10px;
+  background-color: #ffd8ec;
+}
+
+.anderson .rectangle-2 {
+  position: absolute;
+  width: 1512px;
+  height: 964px;
+  top: 846px;
+  left: 10px;
+  background-color: #d9d5a7;
+}
+
+.anderson .img-henry-sugar {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 1610px;
+  left: 608px;
+  object-fit: cover;
+}
+
+.anderson .img-hero {
+  position: absolute;
+  width: 876px;
+  height: 558px;
+  top: 106px;
+  left: 328px;
+  object-fit: cover;
+}
+
+.anderson .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 98px;
+  font-family: 'Helotypo';
+  font-weight: 400;
+  color: #d6bb8e;
+  font-size: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  color: #d6bb8e;
+  font-size: 250px;
+}
+
+.anderson .budapest {
+  position: absolute;
+  top: 2549px;
+  left: 152px;
+  font-family: 'Helotypo';
+  font-weight: 400;
+  font-size: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  color: #784283;
+}
+
+.anderson .rectangle-3 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 1610px;
+  left: 98px;
+  object-fit: cover;
+}
+
+.anderson .img-budapest {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 2023px;
+  left: 608px;
+  object-fit: cover;
+}
+
+.anderson .img-budapest-2 {
+  position: absolute;
+  width: 318px;
+  height: 357px;
+  top: 2193px;
+  left: 98px;
+}
+
+.anderson .img-budapest-3 {
+  position: absolute;
+  width: 318px;
+  height: 357px;
+  top: 2193px;
+  left: 1113px;
+}
+
+.anderson .img-budapest-4 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 1610px;
+  left: 1113px;
+  object-fit: cover;
+}
+
+.anderson .img-the-french {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 2890px;
+  left: 608px;
+  object-fit: cover;
+}
+
+.anderson .img-budapest-5 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 2890px;
+  left: 1113px;
+}
+
+.anderson .img-budapest-6 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 2890px;
+  left: 97px;
+}
+
+.anderson .text-wrapper-2 {
+  position: absolute;
+  top: 2796px;
+  left: 390px;
+  font-family: 'Helotypo';
+  font-weight: 400;
+  color: #784283;
+  font-size: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.anderson .img-the-french-2 {
+  position: absolute;
+  width: 318px;
+  height: 357px;
+  top: 3396px;
+  left: 1113px;
+}
+
+.anderson .img-the-french-3 {
+  position: absolute;
+  width: 318px;
+  height: 357px;
+  top: 3396px;
+  left: 98px;
+}
+
+.anderson .dispatch {
+  position: absolute;
+  top: 3661px;
+  left: 170px;
+  font-family: 'Helotypo';
+  font-weight: 400;
+  color: #cb654f;
+  font-size: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.anderson .img-the-french-4 {
+  position: absolute;
+  width: 318px;
+  height: 357px;
+  top: 4097px;
+  left: 98px;
+}
+
+.anderson .img-the-french-5 {
+  position: absolute;
+  width: 318px;
+  height: 357px;
+  top: 4097px;
+  left: 1116px;
+}
+
+.anderson .img-the-french-6 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 3805px;
+  left: 607px;
+}
+
+.anderson .text-wrapper-3 {
+  top: 3096px;
+  left: 0;
+  position: absolute;
+  font-family: 'Helotypo';
+  font-weight: 400;
+  color: #cb654f;
+  font-size: 243px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-feature-settings: "liga" 0
+}
+
+.anderson .wes-anderson {
+  position: absolute;
+  width: 143px;
+  height: 28px;
+  top: 4426px;
+  left: 695px;
+}
+/* Wes Anderson footer */
+.anderson .text-wrapper-4 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Lora", Lora;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  color: #CB654F; /* Default text color */
+  opacity: 1; /* Initially visible */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover state */
+.anderson .selected-works:hover .text-wrapper-4 {
+  color: #AE5541; /* Change text color on hover */
+}
+
+/* Pressed state */
+.anderson .selected-works:active .text-wrapper-4 {
+  color: #954938; /* Revert text color to default when pressed */
+}
+
+}
+.anderson {
+    position: relative; 
+}
+.text-wrapper-5 {
+  position: absolute;
+top: 935px;
+left: 350px;
+font-family: 'Helotypo';
+  src: url('path/to/Helotypo.ttf') format('truetype');
+font-weight: 400;
+color: #d96907;
+font-size: 250px;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+font-feature-settings: "liga" 0
+}
+
+.anderson .text-wrapper-6 {
+  position: absolute;
+  top: 1501px;
+  left: 344px;
+  font-family: 'Helotypo';
+  font-weight: 400;
+  color: #d96907;
+  font-size: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-feature-settings: "liga" 0
+}
+
+.anderson .img-henry-sugar-2 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 652px;
+  left: 99px;
+  object-fit: cover;
+}
+
+.anderson .img-henry-sugar-3 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 1065px;
+  left: 609px;
+  object-fit: cover;
+}
+
+.anderson .img-henry-sugar-4 {
+  position: absolute;
+  width: 318px;
+  height: 357px;
+  top: 1235px;
+  left: 99px;
+}
+
+.anderson .image-henry-sugar {
+  position: absolute;
+  width: 318px;
+  height: 357px;
+  top: 1235px;
+  left: 1114px;
+}
+
+.anderson .img-henry-sugar-5 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 649px;
+  left: 1114px;
+  object-fit: cover;
+}
+
+.anderson .text-wrapper-7 {
+  position: absolute;
+  top: 539px;
+  left: 98px;
+  font-family: 'Helotypo';
+  font-weight: 400;
+  color: #d6bb8e;
+  font-size: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-feature-settings: "liga" 0
+}
+
+.anderson .text-wrapper-8 {
+  top: 1893px;
+  left: 61px;
+  position: absolute;
+  font-family: 'Helotypo';
+  font-weight: 400;
+  color: #784283;
+  font-size: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-feature-settings: "liga" 0
+}
+
+.anderson .img-the-french-7 {
+  position: absolute;
+  width: 318px;
+  height: 364px;
+  top: 3226px;
+  left: 608px;
+  object-fit: cover;
+}
+  .animated-element img {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 0.3s ease-out; /* Example transition for transform */
+}
+
+.animated-element.visible img {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animated-element img:hover {
+    transform: translateY(-10px); /* Example translation on hover */
+}
+
+}
+
+.anderson .text-wrapper-9 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Lora", Lora;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.anderson .selected-works-wrapper {
+  position: absolute;
+  width: 109px;
+  height: 18px;
+  top: 26px;
+  left: 1312px;
+}
+
+/* Default styles */
+.anderson .selected-works,
+.anderson .selected-works-2 {
+  position: absolute;
+  cursor: pointer;
+  font-family: "Lora", Lora;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  white-space: nowrap;
+  color: #ffffff;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+/* Default text color */
+}
+
+.anderson .selected-works {
+  width: 109px;
+  height: 18px;
+  top: 26px;
+  left: 88px;
+}
+
+.anderson .selected-works-2 {
+  top: -1px;
+  left: 67px;
+  text-align: right;
+}
+
+/* Hover state - changing text color */
+.anderson .selected-works:hover .text-wrapper-9,
+.anderson .selected-works-2:hover {
+  color: #d7d7d7; /* Text color on hover */
+}
+
+/* Pressed state - changing text color */
+.anderson .selected-works:active .text-wrapper-9,
+.anderson .selected-works-2:active {
+  color: #cb654f; /* Text color when pressed */
+}
+
+}
